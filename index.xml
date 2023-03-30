@@ -33,6 +33,29 @@
     </item>
     
     <item>
+      <title>Lightweight Markup Languages</title>
+      <link>https://example.com/post/lightweight-markup-languages/</link>
+      <pubDate>Thu, 30 Mar 2023 10:22:21 +0300</pubDate>
+      <guid>https://example.com/post/lightweight-markup-languages/</guid>
+      <description>&lt;p&gt;Lightweight Markup Languages are a type of markup language that is designed to be simple, easy to read and write, and easy to convert into other formats. These languages are used to add formatting and structure to text documents, such as web pages, blog posts, and documentation.&lt;/p&gt;
+&lt;p&gt;Some of the most popular Lightweight Markup Languages include Markdown, reStructuredText, and AsciiDoc. Markdown is perhaps the most widely used of these languages, thanks in part to its simplicity and ease of use. It was originally created by John Gruber in 2004 as a way to write HTML without having to learn HTML. Markdown uses a series of plain text characters to indicate formatting, such as asterisks for emphasis and hashtags for headings.&lt;/p&gt;
+&lt;p&gt;reStructuredText is another popular Lightweight Markup Language that is often used in documentation. It was created in 2002 as a way to simplify the process of writing technical documentation. reStructuredText uses a series of markup characters to indicate headings, lists, tables, and other elements.&lt;/p&gt;
+&lt;p&gt;AsciiDoc is a more complex Lightweight Markup Language that is often used for more advanced documentation projects. It was created in 2002 and is designed to be highly extensible, making it ideal for complex documentation projects. AsciiDoc uses a series of markup characters to indicate headings, lists, tables, and other elements, but it also supports macros and other advanced features.&lt;/p&gt;
+&lt;p&gt;One of the main benefits of Lightweight Markup Languages is that they are easy to learn and use. They require no special software or tools, and they can be written using any text editor. Additionally, because they are based on plain text, they can be easily versioned and shared using tools like Git.&lt;/p&gt;
+&lt;p&gt;In conclusion, Lightweight Markup Languages are a powerful tool for adding structure and formatting to text documents. They are easy to learn and use, and they can be converted into a variety of other formats, making them ideal for a wide range of applications. Whether you are writing a blog post, technical documentation, or a web page, Lightweight Markup Languages can help you create professional-looking documents quickly and easily.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Last Week 2</title>
+      <link>https://example.com/post/my-last-week-2/</link>
+      <pubDate>Thu, 30 Mar 2023 10:16:17 +0300</pubDate>
+      <guid>https://example.com/post/my-last-week-2/</guid>
+      <description>&lt;p&gt;Last week I completed a number of homework assignments. I wrote programs and studied various topics in mathematics. Also I read a number of science fiction stories written by Robert A. Heinlein. For example, The Man Who Sold The Moon. It was a great pleasure to read them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Continuous Integration and Continuous Deployment</title>
       <link>https://example.com/post/continuous-integration-and-continuous-deployment/</link>
       <pubDate>Mon, 06 Mar 2023 23:01:07 +0300</pubDate>
@@ -240,7 +263,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-981372546&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-834962751&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -250,7 +273,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-981372546&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-834962751&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
