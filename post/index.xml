@@ -5,12 +5,52 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Mar 2023 10:22:21 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Apr 2023 14:43:17 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>Presentations Creation</title>
+      <link>https://example.com/post/presentations-creation/</link>
+      <pubDate>Sat, 22 Apr 2023 14:43:17 +0300</pubDate>
+      <guid>https://example.com/post/presentations-creation/</guid>
+      <description>&lt;p&gt;Creating presentations can be a daunting task, but with the right approach and tools, it can become an enjoyable and rewarding experience.&lt;/p&gt;
+&lt;p&gt;Here are tips on how to create a successful presentation:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Define the objective: Before you start creating your presentation, you need to define your objective. What do you want your audience to take away from your presentation? What is the main message you want to convey? Once you have a clear objective, you can start building your presentation around it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Know your audience: It&amp;rsquo;s important to know your audience before creating your presentation. What is their level of knowledge on the topic? What are their interests and needs? Knowing your audience will help you tailor your presentation to their specific needs and interests.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Choose the right tool: There are many tools available for creating presentations, such as PowerPoint, Google Slides, Keynote, and Prezi. Choose the one that works best for you and your audience.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Keep it simple: A common mistake when creating presentations is trying to include too much information. Keep it simple and focus on the most important points. Use visuals and graphics to help convey your message.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Practice: Practice makes perfect. Rehearse your presentation several times before delivering it to your audience. This will help you feel more confident and ensure that you deliver a polished presentation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Engage your audience: Engage your audience by asking questions, using interactive elements, and encouraging participation. This will help keep them interested and focused on your presentation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These tips will help you to make a splendid presentation everyone will be sure to appreciate.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Last Week 3</title>
+      <link>https://example.com/post/my-last-week-3/</link>
+      <pubDate>Sat, 22 Apr 2023 14:40:39 +0300</pubDate>
+      <guid>https://example.com/post/my-last-week-3/</guid>
+      <description>&lt;p&gt;The past week has passed without any events. Homework was done, new topics were studied, control tests were written in mathematical analysis and mathematical logic.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lightweight Markup Languages</title>
@@ -243,7 +283,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-834962751&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-731826549&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -253,7 +293,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-834962751&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-731826549&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
