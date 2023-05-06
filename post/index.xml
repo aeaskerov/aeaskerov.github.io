@@ -5,12 +5,36 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Apr 2023 14:43:17 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 06 May 2023 21:39:57 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>Scientific Programming Languages</title>
+      <link>https://example.com/post/scientific-programming-languages/</link>
+      <pubDate>Sat, 06 May 2023 21:39:57 +0300</pubDate>
+      <guid>https://example.com/post/scientific-programming-languages/</guid>
+      <description>&lt;p&gt;Scientific programming languages are specialized programming languages designed for scientific computing and data analysis. These languages are specifically tailored to handle complex mathematical operations, data manipulation, and visualization tasks that are often required in scientific research.&lt;/p&gt;
+&lt;p&gt;One of the most popular scientific programming languages is Python. Python is an open-source language that is widely used in scientific research, machine learning, and data analysis. It has a large community of users and developers who have created numerous libraries and tools specifically for scientific computing, such as NumPy, SciPy, and Pandas.&lt;/p&gt;
+&lt;p&gt;Another popular scientific programming language is R. R is an open-source language that is specifically designed for statistical computing and graphics. It has a vast collection of libraries and packages that make it easy to perform complex statistical analyses, create visualizations, and generate reports.&lt;/p&gt;
+&lt;p&gt;MATLAB is another popular scientific programming language that is widely used in engineering, physics, and other sciences. It has a powerful set of tools for numerical computation, data analysis, and visualization. MATLAB is also known for its user-friendly interface and extensive documentation.&lt;/p&gt;
+&lt;p&gt;Julia is a relatively new scientific programming language that is gaining popularity among researchers and data scientists. Julia is designed to be fast, efficient, and easy to use. It has a syntax similar to MATLAB and Python, making it easy for users to switch between languages.&lt;/p&gt;
+&lt;p&gt;In addition to these languages, there are also specialized languages for specific scientific fields. For example, Fortran is still widely used in computational physics and engineering. Lisp is used in artificial intelligence research, and Prolog is used in natural language processing.&lt;/p&gt;
+&lt;p&gt;Overall, scientific programming languages play a crucial role in scientific research and data analysis. They provide researchers with the tools they need to perform complex calculations, analyze large datasets, and visualize their results. With continued advancements in technology and computing power, these languages will continue to evolve and play an essential role in scientific research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Last Week 4</title>
+      <link>https://example.com/post/my-last-week-4/</link>
+      <pubDate>Sat, 06 May 2023 21:36:42 +0300</pubDate>
+      <guid>https://example.com/post/my-last-week-4/</guid>
+      <description>&lt;p&gt;The past week was calm and did not have any special events. I can say that I watched a play by Neil Simon called California Suite. I liked it very much. The actors, the storyline are splendid. It arranged in Tovstonogov Bolshoi Drama Theater.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Presentations Creation</title>
@@ -283,7 +307,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-731826549&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-752946831&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -293,7 +317,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-731826549&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-752946831&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
