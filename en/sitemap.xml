@@ -30,6 +30,24 @@
                 href="https://example.com/event/"
                 />
   </url><url>
+    <loc>https://example.com/project/basics-of-cybersecurity/</loc>
+    <lastmod>2024-05-17T22:58:15+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/project/</loc>
+    <lastmod>2024-05-17T22:58:15+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://example.com/ru/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/project/"
+                />
+  </url><url>
     <loc>https://example.com/post/fusion-energy/</loc>
     <lastmod>2023-05-10T11:21:17+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -112,20 +130,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://example.com/project/moon-colonization/"
-                />
-  </url><url>
-    <loc>https://example.com/project/</loc>
-    <lastmod>2023-05-06T21:23:27+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://example.com/ru/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/project/"
                 />
   </url><url>
     <loc>https://example.com/post/presentations-creation/</loc>
