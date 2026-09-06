@@ -1,1 +1,1 @@
-# Welcome to my site's GitHub page :)
+# Welcome to my website's GitHub page :)
