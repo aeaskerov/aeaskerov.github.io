@@ -24,6 +24,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .main {
+            position: relative;
             display: flex;
             flex: 0.8;
             flex-direction: column;
@@ -93,7 +94,7 @@
         }
         .location {
             /* margin-top: 2vh; */
-            font-size: 4vh;
+            font-size: 3vh;
         }
         .education {
             display: flex;
@@ -135,6 +136,19 @@
         hr {
             border: 1px dashed rgb(8, 239, 24);
         }
+        .credit {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            font-size: 1.5vh;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 6px 9px;
+            border-radius: 4px;
+            margin-bottom: 0;
+        }
+        .credit a {
+            color: white;
+        }
         @media (width <= 900px) {
             .education, .accounts {
                 flex-direction: column;
@@ -152,6 +166,9 @@
             }
             .location {
                 margin-top: 2vh;
+            }
+            .credit {
+                position: sticky;
             }
         }
     </style>
@@ -177,6 +194,20 @@
             <hr>
             <p><a href="https://orcid.org/0009-0001-7688-2527">ORCID</a></p>
         </div>
+        <div class="credit">
+    Background image by
+    <a href="https://commons.wikimedia.org/wiki/User:Cpayoub">
+      Chuck Ayoub
+    </a>
+    —
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+      CC0
+    </a>
+    —
+    <a href="https://commons.wikimedia.org/w/index.php?curid=162851361">
+      Wikimedia Commons
+    </a>
+  </div>
     </div>
 </body>
 </html>
