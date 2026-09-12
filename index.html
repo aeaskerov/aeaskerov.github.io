@@ -25,29 +25,37 @@
         }
         .main {
             display: flex;
-            flex: 0.7;
+            flex: 0.8;
             flex-direction: column;
-            font-size: 5vh;
+            font-size: 4vh;
             height: 90vh;
             align-items: center;
             text-align: center;
-            border: 2px solid rgb(8, 239, 24);
+            /* border: 2px solid rgb(8, 239, 24); */
             border-radius: 15px;
             overflow-y: auto;
             padding-bottom: 2vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("https://upload.wikimedia.org/wikipedia/commons/a/a2/M81_M82_Garland_Galaxy.png");
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+        }
+        .main > * {
+            margin-bottom: 4vh;
         }
         .profile {
             display: flex;
             margin-top: 2vh;
             /* border: 2px solid rgb(8, 239, 24); */
+            border-radius: 15px;
             margin-left: 2vh;
             margin-right: 2vh;
             background: linear-gradient(
                 135deg,
-                #3c0774,
+                #6a11c9,
                 #06317c,
-                #0e4453,
-                #54297f
+                #108e9f,
+                #d543a2
             );
             background-size: 400% 400%;
             animation: gradientMove 12s ease infinite;
@@ -68,26 +76,31 @@
         .profile .avatar {
             flex: 0.2;
             font-size: 10vh;
-            margin: 2vh;
+            align-self: center;
+            padding: 2vh 2vh;
         }
         .profile .info {
             flex: 0.8;
             display: flex;
             flex-direction: column;
             justify-content:space-evenly;
-            padding: 0 2vh;
+            padding: 1vh 2vh;
             border-left: 5px solid rgb(0, 0, 0);
             text-align: start;
         }
         .profile .info .name {
             font-style: italic;
         }
+        .location {
+            /* margin-top: 2vh; */
+            font-size: 4vh;
+        }
         .education {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin-top: 2vh;
+            /* margin-top: 2vh; */
             /* border: 2px solid rgb(8, 239, 24); */
             width: 90%;
         }
@@ -119,9 +132,6 @@
             background-color: rgb(23, 218, 36);
             border-radius: 10px;
         }
-        .accounts p a:hover {
-            color: dodgerblue;
-        }
         hr {
             border: 1px dashed rgb(8, 239, 24);
         }
@@ -140,7 +150,7 @@
                 text-align: center;
                 padding: 2vh 2vh;
             }
-            .city {
+            .location {
                 margin-top: 2vh;
             }
         }
@@ -149,10 +159,10 @@
 <body>
     <div class="main">
         <div class="profile">
-            <p class="avatar">🧐</p>
+            <p class="avatar">👨🏼‍🔬</p>
             <div class="info">
                 <p class="name">Aleksandr Askerov</p>
-                <p class="city">Moscow</p>
+                <p class="location">Planet Earth; 55.755833, 37.617778; UTC+3</p>
             </div>
         </div>
         <div class="education">
